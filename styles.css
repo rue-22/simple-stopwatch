@@ -1,0 +1,43 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.container {
+    min-width: 55%;
+    height: 200px;
+    background-color: rgb(45, 115, 23);
+    border-radius: 10px;
+}
+
+#timer {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    width: 100;
+    margin-top: 40px;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.buttons button {
+    background-color: transparent;
+    border: 0px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.buttons i {
+    border: 2px solid black;
+    color: white;
+    padding: 10px;
+    font-size: 26px;
+}
